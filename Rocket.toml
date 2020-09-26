@@ -1,0 +1,7 @@
+[global]
+secret_key = "S9w9lqcdzxbNYS/2i25f8p2qHh2PAcJkbQhMaJdLLGE="
+session_token_secret_key = "/RR4yNEsl2R6Tt7i9TZ/SZpQN1zYxBaf"
+session_duration = 0
+
+[global.databases]
+sqlite_db = { url = "./db.sqlite", pool_size = 20 }
